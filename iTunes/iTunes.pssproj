@@ -30,6 +30,8 @@
   <ItemGroup>
     <Compile Include="iTunes.psd1" />
     <Compile Include="iTunes.psm1" />
+    <Compile Include="iTunesSync.ps1" />
+    <Compile Include="iTunesResetPlayCounts.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
