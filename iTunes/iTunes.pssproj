@@ -26,7 +26,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="LICENSE" />
+    <Content Include="README.md" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="iTunes.psd1" />
     <Compile Include="iTunes.psm1" />
