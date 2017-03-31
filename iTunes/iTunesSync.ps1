@@ -14,6 +14,8 @@
 
 $destination = 'G:\'
 
+Import-Module iTunes
+
 @{ playlist = "Beschwingt alle";       newname="Ford1" } ,
 @{ playlist = "Ab geht's alle";        newname="Ford2" },
 @{ playlist = "Vormittag sämtliche";   newname="Ford3" },
